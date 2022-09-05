@@ -147,6 +147,7 @@ public interface CommonConstants {
 
     String TIMESTAMP_KEY = "timestamp";
 
+    // TODO: 2022/6/1 在同一个注册中心下，进行环境隔离，本地测试的时候可以新建一个自己使用的group 
     String GROUP_KEY = "group";
 
     String PATH_KEY = "path";
@@ -159,6 +160,7 @@ public interface CommonConstants {
 
     String CLASSIFIER_KEY = "classifier";
 
+    // TODO: 2022/6/1 接口升级，1.一半的生产者实例升级为新的版本号，2.全量的消费者实例升级为新的版本号，3.剩余一半的生产者实例升级为新的版本号
     String VERSION_KEY = "version";
 
     String REVISION_KEY = "revision";
